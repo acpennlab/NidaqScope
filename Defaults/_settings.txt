@@ -1,0 +1,25 @@
+False
+25000
+10000
+10000
+/Dev1/ai0
+
+C:/Users/Public/Documents/nidaq_scope_data/ah918
+DIFF
+10.0
+True
+0.1
+10.0
+Oli/James preset 6 single or dual current clamp scope recording
+.\acq4
+
+
+
+MultiClamp700
+1.0
+-30.0
+0.01
+8.99
+0.0
+400
+True

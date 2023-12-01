@@ -1,0 +1,25 @@
+True
+25000
+10000
+10000
+/Dev1/ai0
+
+C:\Users\Public\Documents\nidaq_scope_data\Ketamine\20220126\Slice 2 \Cell 1
+DIFFERENTIAL
+10.0
+True
+0.1
+10.0
+Andy preset 8 dual current clamp
+.\acq4
+
+
+
+MultiClamp700
+1.0
+-30.0
+0.01
+8.99
+0.0
+400
+True

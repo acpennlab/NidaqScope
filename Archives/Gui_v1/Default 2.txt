@@ -1,0 +1,15 @@
+False
+20000
+4000
+2222
+/Dev1/ai0
+None
+
+Differential
+10.0
+True
+1
+1
+2?
+
+Generic

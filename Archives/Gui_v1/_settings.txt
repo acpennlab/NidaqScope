@@ -1,0 +1,15 @@
+False
+20000
+4000
+5000
+/Dev1/ai1
+None
+
+Differential
+10.0
+False
+1
+20
+
+
+MultiClamp700

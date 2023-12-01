@@ -1,0 +1,25 @@
+True
+20000
+2000
+10000
+/Dev1/ai0
+
+C:\Users\Public\Documents\nidaq_scope_data\20211001\Slice 1\Cell 1
+DIFFERENTIAL
+10.0
+False
+2e-09
+100.0
+default 12m protocol
+.\acq4
+
+
+
+MultiClamp700
+1.0
+-2.0
+0.01
+8.99
+-45.0
+20
+True
