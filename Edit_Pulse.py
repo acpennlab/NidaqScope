@@ -79,6 +79,7 @@ class Pulse_Dialog(object):
         self.down_spinner_2.setSingleStep(0.01)
         self.down_spinner_2.setProperty("value", 0.98)
         self.down_spinner_2.setObjectName(_fromUtf8("down_spinner_2"))
+        self.down_spinner_2.setEnabled(False)
         self.label_21 = QLabel(self.frame)
         self.label_21.setGeometry(QtCore.QRect(0, 170, 111, 31))
         self.label_21.setAlignment(QtCore.Qt.AlignCenter)

@@ -531,7 +531,8 @@ class MyApp(QMainWindow, Ui_MainWindow):
         settings['prepulse'] = (self.ui3.down_spinner_1.value())
         settings['pulse_amp'] = (self.ui3.amplitude_spinner.value())
         settings['pulse_length'] = (self.ui3.pulse_length_spinner.value())
-        settings['postpulse'] = (self.ui3.down_spinner_2.value())
+        #settings['postpulse'] = (self.ui3.down_spinner_2.value())
+        settings['postpulse'] = (self.window_size_spinner.value() * 1e-03) - settings['prepulse'] - settings['pulse_length']
         settings['holding'] = (self.ui3.holding_voltage_spinner.value())
         settings['commander_scale'] = (self.ui3.commander_scale_spinner.value())
 

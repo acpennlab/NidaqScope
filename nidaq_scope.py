@@ -492,7 +492,7 @@ def scope(save=False,
         pulsetask.stop()
         pulsetask.close()
     add_notes = input('Type more notes and/or press Enter to close graphs and return to the console.\n')
-    notes = notes + add_notes
+    notes = notes + "\n" + add_notes
 	
     if save is True:
         # Write binned data to text file
