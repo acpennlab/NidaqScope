@@ -66,11 +66,10 @@
      </rect>
     </property>
     <property name="toolTip">
-     <string>Length of pre pulse down time</string>
+     <string>Length of time before the test pulse</string>
     </property>
     <property name="text">
-     <string>Pre Pulse Down 
-Time (s)</string>
+     <string>Pre-pulse time (s)</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -176,8 +175,7 @@ Time (s)</string>
      <string>Amplitude of voltage step</string>
     </property>
     <property name="text">
-     <string>Pulse 
-Amplitude (V)</string>
+     <string>Pulse Amplitude (V)</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -193,7 +191,7 @@ Amplitude (V)</string>
      </rect>
     </property>
     <property name="toolTip">
-     <string>Length of post pulse down time</string>
+     <string>Length of time after the pulse</string>
     </property>
     <property name="buttonSymbols">
      <enum>QAbstractSpinBox::UpDownArrows</enum>
@@ -221,11 +219,10 @@ Amplitude (V)</string>
      </rect>
     </property>
     <property name="toolTip">
-     <string>Length of post pulse down time</string>
+     <string>Length of time after the test pulse</string>
     </property>
     <property name="text">
-     <string>Post Pulse 
-Down Time (s)</string>
+     <string>Post-pulse time (s)</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
