@@ -1,7 +1,7 @@
 False
 25000
 10000
-10000
+60000
 /Dev1/ai0
 
 C:/Users/Public/Documents/nidaq_scope_data/ah918

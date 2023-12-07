@@ -1,0 +1,163 @@
+protocol:
+    conf:
+        continuous: False
+        duration: 10.001
+        leadTime: 0.01
+        loop: True
+        loopCycleTime: 10.0
+        cycleTime: 0.3
+        repetitions: 0.0
+    params: []
+    windowState: '%00%00%00%FF%00%00%00%00%FD%00%00%00%02%00%00%00%02%00%00%06%40%00%00%01%7B%FC%01%00%00%00%04%FB%00%00%00%14%00L%00o%00a%00d%00e%00r%00D%00o%00c%00k%01%00%00%00%00%00%00%02L%00%00%00%B5%00%FF%FF%FF%FB%00%00%00%18%00P%00r%00o%00t%00o%00c%00o%00l%00D%00o%00c%00k%01%00%00%01%5B%00%00%02~%00%00%00%00%00%00%00%00%FB%00%00%00%10%00T%00a%00s%00k%00D%00o%00c%00k%01%00%00%02P%00%00%01%DA%00%00%01%19%00%FF%FF%FF%FB%00%00%00%18%00S%00e%00q%00u%00e%00n%00c%00e%00D%00o%00c%00k%01%00%00%04.%00%00%02%12%00%00%015%00%FF%FF%FF%00%00%00%03%00%00%06%40%00%00%01%AD%FC%01%00%00%00%02%FB%00%00%00%14%00d%00o%00c%00k%00W%00i%00d%00g%00e%00t%01%00%00%00%00%00%00%00%CE%00%00%00_%00%FF%FF%FF%FC%00%00%00%D2%00%00%05n%00%00%01%3A%00%FF%FF%FF%FA%00%00%00%01%01%00%00%00%02%FB%00%00%00%06%00D%00A%00Q%01%00%00%00%00%FF%FF%FF%FF%00%00%00%A4%00%FF%FF%FF%FB%00%00%00%0C%00C%00l%00a%00m%00p%001%01%00%00%00%00%FF%FF%FF%FF%00%00%01%3A%00%FF%FF%FF%00%00%06%40%00%00%00%00%00%00%00%04%00%00%00%04%00%00%00%08%00%00%00%08%FC%00%00%00%00'
+    analysis:
+devices:
+    Clamp1:
+        splitter_2: "b'%00%00%00%FF%00%00%00%01%00%00%00%02%00%00%01%14%00%00%00d%01%FF%FF%FF%FF%01%00%00%00%01%00'"
+        splitter: "b'%00%00%00%FF%00%00%00%01%00%00%00%02%00%00%00P%00%00%01-%01%FF%FF%FF%FF%01%00%00%00%02%00'"
+        bottomPlotWidget:
+            logYCheck: False
+            logXCheck: False
+            fftCheck: False
+            derivativeCheck: False
+            phasemapCheck: False
+            clipToViewCheck: True
+            maxTracesCheck: False
+            downsampleCheck: True
+            peakRadio: True
+            maxTracesSpin: 0
+            forgetTracesCheck: False
+            meanRadio: False
+            subsampleRadio: False
+            autoDownsampleCheck: True
+            downsampleSpin: 1
+            averageGroup: False
+            alphaGroup: True
+            autoAlphaCheck: False
+            alphaSlider: 1000
+            xGridCheck: False
+            yGridCheck: False
+            gridAlphaSlider: 128
+            pointsGroup: True
+            autoPointsCheck: True
+            paramList:
+            view:
+                targetRange: [[-1.6147673919434984, 12.969473301972855], [-3.622319176362435e-09, 7.99113467829768e-09]]
+                viewRange: [[-1.6147673919434984, 12.969473301972855], [-3.622319176362435e-09, 7.99113467829768e-09]]
+                yInverted: False
+                xInverted: False
+                aspectLocked: False
+                autoRange: [False, False]
+                autoPan: [False, False]
+                autoVisibleOnly: [False, False]
+                linkedViews: [None, None]
+                defaultPadding: 0.02
+                mouseEnabled: [True, True]
+                mouseMode: 3
+                enableMenu: True
+                wheelScaleFactor: -0.125
+                background: None
+                limits:
+                    xLimits: [None, None]
+                    yLimits: [None, None]
+                    xRange: [None, None]
+                    yRange: [None, None]
+        topPlotWidget:
+            logYCheck: False
+            logXCheck: False
+            fftCheck: False
+            derivativeCheck: False
+            phasemapCheck: False
+            clipToViewCheck: True
+            maxTracesCheck: False
+            downsampleCheck: True
+            peakRadio: True
+            maxTracesSpin: 0
+            forgetTracesCheck: False
+            meanRadio: False
+            subsampleRadio: False
+            autoDownsampleCheck: True
+            downsampleSpin: 1
+            averageGroup: False
+            alphaGroup: True
+            autoAlphaCheck: False
+            alphaSlider: 1000
+            xGridCheck: False
+            yGridCheck: False
+            gridAlphaSlider: 128
+            pointsGroup: True
+            autoPointsCheck: True
+            paramList:
+            view:
+                targetRange: [[-1.2299143549513363, 4.713218771354118], [-1.3696709008678167, 4.573462225437639]]
+                viewRange: [[-1.2299143549513363, 4.713218771354118], [-1.3696709008678167, 4.573462225437639]]
+                yInverted: False
+                xInverted: False
+                aspectLocked: False
+                autoRange: [False, False]
+                autoPan: [False, False]
+                autoVisibleOnly: [False, False]
+                linkedViews: [None, None]
+                defaultPadding: 0.02
+                mouseEnabled: [True, True]
+                mouseMode: 3
+                enableMenu: True
+                wheelScaleFactor: -0.125
+                background: None
+                limits:
+                    xLimits: [None, None]
+                    yLimits: [None, None]
+                    xRange: [None, None]
+                    yRange: [None, None]
+        vcModeRadio: False
+        i0ModeRadio: False
+        icModeRadio: True
+        holdingCheck: False
+        holdingSpin: 0.0
+        primarySignalCheck: False
+        secondarySignalCheck: False
+        primarySignalCombo: 'Membrane Potential'
+        secondarySignalCombo: 'Auxiliary 1'
+        secondaryGainCheck: False
+        secondaryGainSpin: 1
+        primaryGainCheck: False
+        primaryGainSpin: 2
+        waveGeneratorWidget:
+            function: 'pulse(0*s, 10*s, 5e-09)'
+            params:
+            autoUpdate: False
+            advancedMode: False
+            stimuli:
+                Pulse:
+                    start:
+                        sequence: 'off'
+                        value: 0.0
+                    length:
+                        sequence: 'off'
+                        value: 10.0
+                    amplitude:
+                        sequence: 'off'
+                        value: 5e-09
+                    sum:
+                        affect: 'length'
+                        sequence: 'off'
+                        value: 5e-08
+                    type: 'pulse'
+        mode: 'IC'
+        primarySignal: 'Membrane Potential'
+        secondarySignal: 'Auxiliary 1'
+    DAQ:
+        rate: 40000.0
+        downsample: 1
+        triggerDevice: 'No Trigger'
+        denoiseMethod: 'None'
+        denoiseThreshold: 4.0
+        denoiseWidth: 1
+        filterMethod: 'None'
+        besselCutoff: 20000.0
+        besselOrder: 4
+        besselBidirectional: False
+        butterworthPassband: 20000.0
+        butterworthStopband: 40000.0
+        butterworthPassDB: 3.0
+        butterworthStopDB: 40.0
+        butterworthBidirectional: False

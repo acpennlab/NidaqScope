@@ -1,0 +1,13 @@
+*.pyc
+*~
+*.renamed*
+MANIFEST
+dist
+build
+tempLog.txt
+.idea
+acq4.egg-info
+!config/
+config/*
+!config/example/
+crash.log
