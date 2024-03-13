@@ -200,7 +200,7 @@ def scope(save=False,
         #wavepost=[holding_voltage*(1000/commander_scale)]*int((win_size-prepulse-pulse_length)*pulserate)
         wavepre=[holding_voltage*(command_factor/commander_scale)]*int(prepulse*pulserate);
         wavestep=[(holding_voltage+pulse_amp)*(command_factor/commander_scale)]*int(pulse_length*pulserate)
-        wavepost=[holding_voltage*(commander_scale)]*int((win_size-prepulse-pulse_length)*pulserate)
+        wavepost=[holding_voltage*(command_factor/commander_scale)]*int((win_size-prepulse-pulse_length)*pulserate)
         wave = wavepre+wavestep+wavepost
         if nChannels > 1:
             wave = [wave,wave]
